@@ -1,297 +1,85 @@
 eport:
 step: stage changes
   command: git add .
-  duration: 0.30127883 seconds
+  duration: 0.10130310 seconds
 
 step: commit changes
-  command: git commit -m first commit
-  duration: 0.18066287 seconds
-  output: [main (root-commit) f9508a3] first commit
- 280 files changed, 4454 insertions(+)
- create mode 100644 .gitignore
- create mode 100644 Cargo.toml
- create mode 100644 _MEIc3GVi9/base_library.zip
- create mode 100644 _MEIc3GVi9/config.py
- create mode 100755 _MEIc3GVi9/helpers.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_bisect.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_blake2.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_bz2.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_codecs_cn.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_codecs_hk.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_codecs_iso2022.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_codecs_jp.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_codecs_kr.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_codecs_tw.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_contextvars.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_csv.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_ctypes.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_decimal.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_hashlib.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_heapq.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_json.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_lzma.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_md5.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_multibytecodec.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_multiprocessing.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_opcode.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_pickle.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_posixshmem.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_posixsubprocess.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_queue.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_random.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_sha1.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_sha2.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_sha3.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_socket.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_ssl.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_statistics.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/_struct.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/array.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/binascii.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/fcntl.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/grp.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/math.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/mmap.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/pyexpat.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/resource.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/select.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/termios.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/unicodedata.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/lib-dynload/zlib.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/libb2.so.1
- create mode 100755 _MEIc3GVi9/libbz2.so.1
- create mode 100755 _MEIc3GVi9/libcrypto.so.3
- create mode 100755 _MEIc3GVi9/libexpat.so.1
- create mode 100755 _MEIc3GVi9/libffi.so.8
- create mode 100755 _MEIc3GVi9/libgcc_s.so.1
- create mode 100755 _MEIc3GVi9/libgomp.so.1
- create mode 100755 _MEIc3GVi9/liblzma.so.5
- create mode 100755 _MEIc3GVi9/libmpdec.so.3
- create mode 100755 _MEIc3GVi9/libpython3.13.so.1.0
- create mode 100755 _MEIc3GVi9/libssl.so.3
- create mode 100755 _MEIc3GVi9/libz.so.1
- create mode 100755 _MEIc3GVi9/loaders.cpython-313-aarch64-linux-gnu.so
- create mode 100755 _MEIc3GVi9/loggers.cpython-313-aarch64-linux-gnu.so
- create mode 100644 exercises/00_intro/README.md
- create mode 100644 exercises/00_intro/intro1.rs
- create mode 100644 exercises/00_intro/intro2.rs
- create mode 100644 exercises/01_variables/README.md
- create mode 100644 exercises/01_variables/variables1.rs
- create mode 100644 exercises/01_variables/variables2.rs
- create mode 100644 exercises/01_variables/variables3.rs
- create mode 100644 exercises/01_variables/variables4.rs
- create mode 100644 exercises/01_variables/variables5.rs
- create mode 100644 exercises/01_variables/variables6.rs
- create mode 100644 exercises/02_functions/README.md
- create mode 100644 exercises/02_functions/functions1.rs
- create mode 100644 exercises/02_functions/functions2.rs
- create mode 100644 exercises/02_functions/functions3.rs
- create mode 100644 exercises/02_functions/functions4.rs
- create mode 100644 exercises/02_functions/functions5.rs
- create mode 100644 exercises/03_if/README.md
- create mode 100644 exercises/03_if/if1.rs
- create mode 100644 exercises/03_if/if2.rs
- create mode 100644 exercises/03_if/if3.rs
- create mode 100644 exercises/04_primitive_types/README.md
- create mode 100644 exercises/04_primitive_types/primitive_types1.rs
- create mode 100644 exercises/04_primitive_types/primitive_types2.rs
- create mode 100644 exercises/04_primitive_types/primitive_types3.rs
- create mode 100644 exercises/04_primitive_types/primitive_types4.rs
- create mode 100644 exercises/04_primitive_types/primitive_types5.rs
- create mode 100644 exercises/04_primitive_types/primitive_types6.rs
- create mode 100644 exercises/05_vecs/README.md
- create mode 100644 exercises/05_vecs/vecs1.rs
- create mode 100644 exercises/05_vecs/vecs2.rs
- create mode 100644 exercises/06_move_semantics/README.md
- create mode 100644 exercises/06_move_semantics/move_semantics1.rs
- create mode 100644 exercises/06_move_semantics/move_semantics2.rs
- create mode 100644 exercises/06_move_semantics/move_semantics3.rs
- create mode 100644 exercises/06_move_semantics/move_semantics4.rs
- create mode 100644 exercises/06_move_semantics/move_semantics5.rs
- create mode 100644 exercises/07_structs/README.md
- create mode 100644 exercises/07_structs/structs1.rs
- create mode 100644 exercises/07_structs/structs2.rs
- create mode 100644 exercises/07_structs/structs3.rs
- create mode 100644 exercises/08_enums/README.md
- create mode 100644 exercises/08_enums/enums1.rs
- create mode 100644 exercises/08_enums/enums2.rs
- create mode 100644 exercises/08_enums/enums3.rs
- create mode 100644 exercises/09_strings/README.md
- create mode 100644 exercises/09_strings/strings1.rs
- create mode 100644 exercises/09_strings/strings2.rs
- create mode 100644 exercises/09_strings/strings3.rs
- create mode 100644 exercises/09_strings/strings4.rs
- create mode 100644 exercises/10_modules/README.md
- create mode 100644 exercises/10_modules/modules1.rs
- create mode 100644 exercises/10_modules/modules2.rs
- create mode 100644 exercises/10_modules/modules3.rs
- create mode 100644 exercises/11_hashmaps/README.md
- create mode 100644 exercises/11_hashmaps/hashmaps1.rs
- create mode 100644 exercises/11_hashmaps/hashmaps2.rs
- create mode 100644 exercises/11_hashmaps/hashmaps3.rs
- create mode 100644 exercises/12_options/README.md
- create mode 100644 exercises/12_options/options1.rs
- create mode 100644 exercises/12_options/options2.rs
- create mode 100644 exercises/12_options/options3.rs
- create mode 100644 exercises/13_error_handling/README.md
- create mode 100644 exercises/13_error_handling/errors1.rs
- create mode 100644 exercises/13_error_handling/errors2.rs
- create mode 100644 exercises/13_error_handling/errors3.rs
- create mode 100644 exercises/13_error_handling/errors4.rs
- create mode 100644 exercises/13_error_handling/errors5.rs
- create mode 100644 exercises/13_error_handling/errors6.rs
- create mode 100644 exercises/14_generics/README.md
- create mode 100644 exercises/14_generics/generics1.rs
- create mode 100644 exercises/14_generics/generics2.rs
- create mode 100644 exercises/15_traits/README.md
- create mode 100644 exercises/15_traits/traits1.rs
- create mode 100644 exercises/15_traits/traits2.rs
- create mode 100644 exercises/15_traits/traits3.rs
- create mode 100644 exercises/15_traits/traits4.rs
- create mode 100644 exercises/15_traits/traits5.rs
- create mode 100644 exercises/16_lifetimes/README.md
- create mode 100644 exercises/16_lifetimes/lifetimes1.rs
- create mode 100644 exercises/16_lifetimes/lifetimes2.rs
- create mode 100644 exercises/16_lifetimes/lifetimes3.rs
- create mode 100644 exercises/17_tests/README.md
- create mode 100644 exercises/17_tests/tests1.rs
- create mode 100644 exercises/17_tests/tests2.rs
- create mode 100644 exercises/17_tests/tests3.rs
- create mode 100644 exercises/18_iterators/README.md
- create mode 100644 exercises/18_iterators/iterators1.rs
- create mode 100644 exercises/18_iterators/iterators2.rs
- create mode 100644 exercises/18_iterators/iterators3.rs
- create mode 100644 exercises/18_iterators/iterators4.rs
- create mode 100644 exercises/18_iterators/iterators5.rs
- create mode 100644 exercises/19_smart_pointers/README.md
- create mode 100644 exercises/19_smart_pointers/arc1.rs
- create mode 100644 exercises/19_smart_pointers/box1.rs
- create mode 100644 exercises/19_smart_pointers/cow1.rs
- create mode 100644 exercises/19_smart_pointers/rc1.rs
- create mode 100644 exercises/20_threads/README.md
- create mode 100644 exercises/20_threads/threads1.rs
- create mode 100644 exercises/20_threads/threads2.rs
- create mode 100644 exercises/20_threads/threads3.rs
- create mode 100644 exercises/21_macros/README.md
- create mode 100644 exercises/21_macros/macros1.rs
- create mode 100644 exercises/21_macros/macros2.rs
- create mode 100644 exercises/21_macros/macros3.rs
- create mode 100644 exercises/21_macros/macros4.rs
- create mode 100644 exercises/22_clippy/README.md
- create mode 100644 exercises/22_clippy/clippy1.rs
- create mode 100644 exercises/22_clippy/clippy2.rs
- create mode 100644 exercises/22_clippy/clippy3.rs
- create mode 100644 exercises/23_conversions/README.md
- create mode 100644 exercises/23_conversions/as_ref_mut.rs
- create mode 100644 exercises/23_conversions/from_into.rs
- create mode 100644 exercises/23_conversions/from_str.rs
- create mode 100644 exercises/23_conversions/try_from_into.rs
- create mode 100644 exercises/23_conversions/using_as.rs
- create mode 100644 exercises/README.md
- create mode 100644 exercises/quizzes/README.md
- create mode 100644 exercises/quizzes/quiz1.rs
- create mode 100644 exercises/quizzes/quiz2.rs
- create mode 100644 exercises/quizzes/quiz3.rs
- create mode 100644 rust-analyzer.toml
- create mode 100644 solutions/00_intro/intro1.rs
- create mode 100644 solutions/00_intro/intro2.rs
- create mode 100644 solutions/01_variables/variables1.rs
- create mode 100644 solutions/01_variables/variables2.rs
- create mode 100644 solutions/01_variables/variables3.rs
- create mode 100644 solutions/01_variables/variables4.rs
- create mode 100644 solutions/01_variables/variables5.rs
- create mode 100644 solutions/01_variables/variables6.rs
- create mode 100644 solutions/02_functions/functions1.rs
- create mode 100644 solutions/02_functions/functions2.rs
- create mode 100644 solutions/02_functions/functions3.rs
- create mode 100644 solutions/02_functions/functions4.rs
- create mode 100644 solutions/02_functions/functions5.rs
- create mode 100644 solutions/03_if/if1.rs
- create mode 100644 solutions/03_if/if2.rs
- create mode 100644 solutions/03_if/if3.rs
- create mode 100644 solutions/04_primitive_types/primitive_types1.rs
- create mode 100644 solutions/04_primitive_types/primitive_types2.rs
- create mode 100644 solutions/04_primitive_types/primitive_types3.rs
- create mode 100644 solutions/04_primitive_types/primitive_types4.rs
- create mode 100644 solutions/04_primitive_types/primitive_types5.rs
- create mode 100644 solutions/04_primitive_types/primitive_types6.rs
- create mode 100644 solutions/05_vecs/vecs1.rs
- create mode 100644 solutions/05_vecs/vecs2.rs
- create mode 100644 solutions/06_move_semantics/move_semantics1.rs
- create mode 100644 solutions/06_move_semantics/move_semantics2.rs
- create mode 100644 solutions/06_move_semantics/move_semantics3.rs
- create mode 100644 solutions/06_move_semantics/move_semantics4.rs
- create mode 100644 solutions/06_move_semantics/move_semantics5.rs
- create mode 100644 solutions/07_structs/structs1.rs
- create mode 100644 solutions/07_structs/structs2.rs
- create mode 100644 solutions/07_structs/structs3.rs
- create mode 100644 solutions/08_enums/enums1.rs
- create mode 100644 solutions/08_enums/enums2.rs
- create mode 100644 solutions/08_enums/enums3.rs
- create mode 100644 solutions/09_strings/strings1.rs
- create mode 100644 solutions/09_strings/strings2.rs
- create mode 100644 solutions/09_strings/strings3.rs
- create mode 100644 solutions/09_strings/strings4.rs
- create mode 100644 solutions/10_modules/modules1.rs
- create mode 100644 solutions/10_modules/modules2.rs
- create mode 100644 solutions/10_modules/modules3.rs
- create mode 100644 solutions/11_hashmaps/hashmaps1.rs
- create mode 100644 solutions/11_hashmaps/hashmaps2.rs
- create mode 100644 solutions/11_hashmaps/hashmaps3.rs
- create mode 100644 solutions/12_options/options1.rs
- create mode 100644 solutions/12_options/options2.rs
- create mode 100644 solutions/12_options/options3.rs
- create mode 100644 solutions/13_error_handling/errors1.rs
- create mode 100644 solutions/13_error_handling/errors2.rs
- create mode 100644 solutions/13_error_handling/errors3.rs
- create mode 100644 solutions/13_error_handling/errors4.rs
- create mode 100644 solutions/13_error_handling/errors5.rs
- create mode 100644 solutions/13_error_handling/errors6.rs
- create mode 100644 solutions/14_generics/generics1.rs
- create mode 100644 solutions/14_generics/generics2.rs
- create mode 100644 solutions/15_traits/traits1.rs
- create mode 100644 solutions/15_traits/traits2.rs
- create mode 100644 solutions/15_traits/traits3.rs
- create mode 100644 solutions/15_traits/traits4.rs
- create mode 100644 solutions/15_traits/traits5.rs
- create mode 100644 solutions/16_lifetimes/lifetimes1.rs
- create mode 100644 solutions/16_lifetimes/lifetimes2.rs
- create mode 100644 solutions/16_lifetimes/lifetimes3.rs
- create mode 100644 solutions/17_tests/tests1.rs
- create mode 100644 solutions/17_tests/tests2.rs
- create mode 100644 solutions/17_tests/tests3.rs
- create mode 100644 solutions/18_iterators/iterators1.rs
- create mode 100644 solutions/18_iterators/iterators2.rs
- create mode 100644 solutions/18_iterators/iterators3.rs
- create mode 100644 solutions/18_iterators/iterators4.rs
- create mode 100644 solutions/18_iterators/iterators5.rs
- create mode 100644 solutions/19_smart_pointers/arc1.rs
- create mode 100644 solutions/19_smart_pointers/box1.rs
- create mode 100644 solutions/19_smart_pointers/cow1.rs
- create mode 100644 solutions/19_smart_pointers/rc1.rs
- create mode 100644 solutions/20_threads/threads1.rs
- create mode 100644 solutions/20_threads/threads2.rs
- create mode 100644 solutions/20_threads/threads3.rs
- create mode 100644 solutions/21_macros/macros1.rs
- create mode 100644 solutions/21_macros/macros2.rs
- create mode 100644 solutions/21_macros/macros3.rs
- create mode 100644 solutions/21_macros/macros4.rs
- create mode 100644 solutions/22_clippy/clippy1.rs
- create mode 100644 solutions/22_clippy/clippy2.rs
- create mode 100644 solutions/22_clippy/clippy3.rs
- create mode 100644 solutions/23_conversions/as_ref_mut.rs
- create mode 100644 solutions/23_conversions/from_into.rs
- create mode 100644 solutions/23_conversions/from_str.rs
- create mode 100644 solutions/23_conversions/try_from_into.rs
- create mode 100644 solutions/23_conversions/using_as.rs
- create mode 100644 solutions/README.md
- create mode 100644 solutions/quizzes/quiz1.rs
- create mode 100644 solutions/quizzes/quiz2.rs
- create mode 100644 solutions/quizzes/quiz3.rs
+  command: git commit -m i did some excercises
+  duration: 0.24386406 seconds
+  output: [main ff512b0] i did some excercises
+ 110 files changed, 690 insertions(+), 68 deletions(-)
+ create mode 100644 .rustlings-state.txt
+ rename {_MEIc3GVi9 => _MEInJvrAI}/base_library.zip (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/config.py (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/helpers.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_bisect.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_blake2.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_bz2.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_codecs_cn.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_codecs_hk.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_codecs_iso2022.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_codecs_jp.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_codecs_kr.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_codecs_tw.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_contextvars.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_csv.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_ctypes.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_decimal.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_hashlib.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_heapq.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_json.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_lzma.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_md5.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_multibytecodec.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_multiprocessing.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_opcode.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_pickle.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_posixshmem.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_posixsubprocess.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_queue.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_random.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_sha1.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_sha2.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_sha3.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_socket.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_ssl.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_statistics.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/_struct.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/array.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/binascii.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/fcntl.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/grp.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/math.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/mmap.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/pyexpat.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/resource.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/select.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/termios.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/unicodedata.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/lib-dynload/zlib.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/libb2.so.1 (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/libbz2.so.1 (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/libcrypto.so.3 (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/libexpat.so.1 (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/libffi.so.8 (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/libgcc_s.so.1 (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/libgomp.so.1 (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/liblzma.so.5 (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/libmpdec.so.3 (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/libpython3.13.so.1.0 (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/libssl.so.3 (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/libz.so.1 (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/loaders.cpython-313-aarch64-linux-gnu.so (100%)
+ rename {_MEIc3GVi9 => _MEInJvrAI}/loggers.cpython-313-aarch64-linux-gnu.so (100%)
+ create mode 100644 report.txt
 
+
+step: push changes
+  command: git push
+  duration: 2.90590596 seconds
 
 step: TOTAL
   command: N/A
-  duration: 0.48211312 seconds
+  duration: 3.25164390 seconds
 
-total duration: 0.48211312 seconds
+total duration: 3.25164390 seconds
